@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "privilege": "SYSDBA",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 1521,
+            "driver": "Oracle",
+            "name": "OracleDB",
+            "database": "XEPDB1",
+            "username": "sys",
+            "password": "1234"
+        }
+    ]
+}
